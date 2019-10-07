@@ -1,0 +1,23 @@
+
+typedef enum {
+    SELF_TEST_X_GYRO = 0,
+    SELF_TEST_Y_GYRO,
+    SELF_TEST_Z_GYRO,
+    SELF_TEST_X_ACCEL = 13,
+    SELF_TEST_Y_ACCEL,
+    SELF_TEST_Z_ACCEL,
+    XG_OFFSET_H = 19,
+    XG_OFFSET_L,
+    YG_OFFSET_H,
+    YG_OFFSET_L,
+    ZG_OFFSET_H,
+    ZG_OFFSET_L,
+    SMPLRT_DIV,
+    CONFIG,
+    GYRO_CONFIG,
+    ACCEL_CONFIG,
+    ACCEL_CONFIG_2,
+    LP_ACCEL_ODR,
+    
+} MPU9520_REG;
+

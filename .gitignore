@@ -5,4 +5,5 @@
 ## ignore these files ##
 .DS_Store
 .out
-#/src/apps/*/*.out
+/src/apps/*/*.out
+/src/apps/*/Build/

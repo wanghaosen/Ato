@@ -1,0 +1,7 @@
+## ignore these folders ##
+/.vscode/
+/Build/
+
+## ignore these files ##
+.DS_Store
+.out
